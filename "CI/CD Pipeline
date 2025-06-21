@@ -1,5 +1,0 @@
-CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It’s an automated process that handles:
-
-    CI (Continuous Integration): Automatically testing and merging code changes into the main branch.
-
-    CD (Continuous Delivery/Deployment): Automatically deploying updates to a testing/staging/production environment.
