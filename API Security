@@ -1,0 +1,26 @@
+1. Authentication
+
+This is the process of verifying the identity of users.
+2. Authorization
+
+This ensures users can only access resources they are permitted to.
+
+    Role-based access control (RBAC): Define roles such as admin, host, and guest.
+
+    Route protection: Middleware should check whether the authenticated user has permission to perform actions like:
+
+        Editing a listing (only the host)
+
+        Viewing bookings (only the user who booked or the host)
+
+        Managing users (admin only)
+
+3. Rate Limiting
+
+Protects your API from abuse and denial-of-service attacks.
+
+    Throttle requests: Use libraries like express-rate-limit (Node.js) or django-ratelimit (Django) to limit requests, e.g.:
+
+        Max 100 requests per 15 minutes per IP
+
+        Stricter limits on sensitive endpoints like login or signup
