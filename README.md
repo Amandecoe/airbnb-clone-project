@@ -95,7 +95,6 @@ This is the process of verifying the identity of users.
 
 This ensures users can only access resources they are permitted to.
 
-    Role-based access control (RBAC): Define roles such as admin, host, and guest.
 
     Route protection: Middleware should check whether the authenticated user has permission to perform actions like:
 
