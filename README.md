@@ -27,7 +27,7 @@ This project enables learners to understand complex architectures, workflows, an
         PUT /users/{user_id}/ - Update a specific user
         DELETE /users/{user_id}/ - Delete a specific user
 
-    Properties
+     Properties
         GET /properties/ - List all properties
         POST /properties/ - Create a new property
         GET /properties/{property_id}/ - Retrieve a specific property
